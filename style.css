@@ -1,0 +1,9 @@
+/* ----- global ----- */
+body {
+  background-color: #F8F9F9;
+}
+
+.container-fluid,
+.container {
+  max-width: 1200px;
+}
