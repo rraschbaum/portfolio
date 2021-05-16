@@ -4,8 +4,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
   <!-- Bootstrap css -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  
   <!-- css -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -17,7 +22,7 @@
 
 <body>
   <!-- navbar -->
-  <div class="container-fluid">
+  <div class="container-fluid py-4 px-4 px-md-5">
     <nav class="navbar px-0">
       <a href="/index.html" class="navbar-brand">Ryan Raschbaum</a>
       <div class="navbar-nav">
@@ -28,9 +33,9 @@
 
   <!-- main content -->
   <main>
-    <div class="container-fluid">
+    <div class="container-fluid px-4 px-md-5">
       <div class="row">
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6 mt-4 mb-5">
           <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
         </div>
       </div>
@@ -39,58 +44,62 @@
       <div class="row">
 
         <!-- project 1 -->
-        <div class="col-12 col-md-6 project">
+        <div class="col-12 col-md-6 project mb-5">
           <a href="#">
-            <img 
-              class="img-fluid w-100"
-              src="https://via.placeholder.com/333x222" 
-              alt="placeholder image" 
-            >
-            <h2 class="project-title">MBX Design System</h2>
-            <p class="project-tag">product</p>
-            <p class="project-summary">Half Day is an independent CBD manufacturer with a passion for providing their customers with clarity and care.</p>
+            <div class="img-container mb-3">
+              <img 
+                class="img-fluid w-100"
+                src="/images/mbx-design-system-cover.jpg" 
+                alt="placeholder image" 
+              >  
+            </div>
+            <h2 class="project-title mb-1">MBX Design System</h2>
+            <p class="project-tag mb-3">product</p>
           </a>
         </div>
 
         <!-- project 2 -->
-        <div class="col-12 col-md-6 project">
+        <div class="col-12 col-md-6 project mb-5">
           <a href="#">
-            <img 
-              class="img-fluid w-100"
-              src="https://via.placeholder.com/333x222" 
-              alt="placeholder image" 
-            >
-            <h2 class="project-title">Half Day CBD</h2>
-            <p class="project-tag">Brand — Packaging — Website</p>
-            <p class="project-summary">Half Day is an independent CBD manufacturer with a passion for providing their customers with clarity and care.</p>
+            <div class="img-container mb-3">
+              <img 
+                class="img-fluid w-100"
+                src="/images/half-day-cbd-cover.jpg" 
+                alt="placeholder image" 
+              >  
+            </div>
+            <h2 class="project-title mb-1">Half Day CBD</h2>
+            <p class="project-tag mb-3">Brand — Packaging — Website</p>
           </a>
         </div>
 
         <!-- project 3 -->
-        <div class="col-12 col-md-6 project">
+        <div class="col-12 col-md-6 project mb-5">
           <a href="#">
-            <img 
-              class="img-fluid w-100"
-              src="https://via.placeholder.com/333x222" 
-              alt="placeholder image" 
-            >
-            <h2 class="project-title">Bellrock</h2>
-            <p class="project-tag">Brand — Website</p>
-            <p class="project-summary">Half Day is an independent CBD manufacturer with a passion for providing their customers with clarity and care.</p>
+            <div class="img-container mb-3">
+              <img 
+                class="img-fluid w-100"
+                src="/images/bellrock-cover.jpg" 
+                alt="placeholder image" 
+              >  
+            </div>
+            <h2 class="project-title mb-1">Bellrock</h2>
+            <p class="project-tag mb-3">Brand — Website</p>
           </a>
         </div>
 
         <!-- project 4 -->
-        <div class="col-12 col-md-6 project">
+        <div class="col-12 col-md-6 project mb-5">
           <a href="#">
-            <img 
-              class="img-fluid w-100"
-              src="https://via.placeholder.com/333x222" 
-              alt="placeholder image" 
-            >
-            <h2 class="project-title">Matchbox Time Tracker</h2>
-            <p class="project-tag">Web App</p>
-            <p class="project-summary">Half Day is an independent CBD manufacturer with a passion for providing their customers with clarity and care.</p>
+            <div class="img-container mb-3">
+              <img 
+                class="img-fluid w-100"
+                src="/images/matchbox-time-tracker-cover.jpg" 
+                alt="placeholder image" 
+              >  
+            </div>
+            <h2 class="project-title mb-1">Matchbox Time Tracker</h2>
+            <p class="project-tag mb-3">Web App</p>
           </a>
         </div>
 
@@ -100,9 +109,9 @@
 
   <!-- footer -->
   <footer>
-    <div class="container-fluid">
-      <a href="#">Github</a>
-      <a href="#">LinkedIn</a>
+    <div class="container-fluid py-5 px-4 px-md-5">
+      <a href="https://github.com/rraschbaum" class="mr-4">Github</a>
+      <a href="https://www.linkedin.com/in/ryan-raschbaum-0903b887/">LinkedIn</a>
     </div>
   </footer>
 

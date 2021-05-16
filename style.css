@@ -1,9 +1,55 @@
 /* ----- global ----- */
 body {
   background-color: #F8F9F9;
+  font-family: 'Inter', sans-serif !important;
+}
+
+body, 
+a,
+a:hover,
+a:focus {
+  color: #1B2D50;
 }
 
 .container-fluid,
 .container {
   max-width: 1200px;
+}
+
+.img-container {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* ----- typography ----- */
+
+.navbar-brand,
+.nav-link,
+p,
+footer, 
+li {
+  font-size: 1.2rem;
+  line-height: 1.85rem;
+  font-weight: 400;
+}
+
+/* ----- projects ----- */
+
+.project a:hover {
+  text-decoration: none;
+}
+
+.img-container {
+  transition-duration: .4s;
+}
+
+
+.project:hover .img-container {
+  transform: translateY(-10px);
+  box-shadow: 0 3px 15px rgba(0,0,0,0.2);
+}
+
+/* ----- about ----- */
+.section-title {
+  font-size: 1rem;
 }
